@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+#include "murmur.h"
 
 const uint32_t c1 = 0xcc9e2d51;
 const uint32_t c2 = 0x1b873593;
