@@ -1,12 +1,12 @@
 #include <string>
 #include <iostream>
 
-#define c1 0xcc9e2d51
-#define c2 0x1b873593
-#define r1 15
-#define r2 13
-#define m 5
-#define n 0xe6546b64
+const uint32_t c1 = 0xcc9e2d51;
+const uint32_t c2 = 0x1b873593;
+const int8_t r1 = 15;
+const int8_t r2 = 13;
+const int8_t m = 5;
+const uint32_t n = 0xe6546b64;
 
 uint32_t leftRotate(uint32_t num, uint32_t shift)
 {
